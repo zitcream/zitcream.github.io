@@ -15,25 +15,6 @@ $(document).ready(function() {
 	$("#ping").click(function() {
 		pong();
 	});
-	//Quacker
-	$("#quacker").click(function() {
-		var duck = confirm("Duck");
-		var goose = false;
-		while(goose === false) {
-			var gooseChance = Math.floor(Math.random() * (5 - 1 + 1)) + min;
-			if(duck) {
-				if(gooseChance = 5) {
-					alert("Goose!");
-					goose = true;
-					return 0;
-				} else {
-					duck = confirm("Duck");
-				}
-			} else {
-				return 0;
-			}
-		};
-	});
 	//Dropdown Menu Test
 	$("#menutest").slideUp(1);
 	$("#testmenu").mouseenter(function() {
