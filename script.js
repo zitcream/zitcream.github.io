@@ -15,6 +15,7 @@ $(document).ready(function() {
 				purple = true;
 			}
 		}
+		purplize();
 	});
 	$("#aboot").click(function() {
 		alert("THIS BUTTONE DOES ABSOLUTELY NOTHING!");
