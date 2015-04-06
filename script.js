@@ -1,12 +1,20 @@
 $(document).ready(function() {
 	//Purplize!
+	var purple = false;
 	$("#nein").click(function() {
-		alert("'Lavender' is my favorite color");
-		$("#neinbox").css("background-color", "#8904B1");
-		$("#header").css("background", "linear-gradient(purple, violet, purple)");
-		$("#body").css("background-color", "#380B61");
-		$("#txt").css("background-color", "#6A0888");
-		$("#nein").attr("src", "https://db.tt/BA2vHPxL");
+		function purplize() {
+			if(purple) {
+				location.reload();
+			} else {
+				alert("'Lavender' is my favorite color");
+				$("#neinbox").css("background-color", "#8904B1");
+				$("#header").css("background", "linear-gradient(purple, violet, purple)");
+				$("#body").css("background-color", "#380B61");
+				$("#txt").css("background-color", "#6A0888");
+				$("#nein").attr("src", "https://db.tt/BA2vHPxL");
+				purple = true;
+			}
+		}
 	});
 	$("#aboot").click(function() {
 		alert("THIS BUTTONE DOES ABSOLUTELY NOTHING!");
