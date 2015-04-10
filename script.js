@@ -12,6 +12,9 @@ $(document).ready(function() {
 				$("#nein").attr("src", "https://db.tt/ma9olSoZ");
 				$("#nein").attr("width", "300");
 				$("#nein").attr("height", "300");
+				$(".linktxt").css("font-family: Comic Sans MS, monospace");
+				$(".linktxt:visited").css("font-family: Comic Sans MS, monospace");
+				$("#txt").css("font-family: font-family: Comic Sans MS, monospace");
 				purple = false;
 			} else {
 				alert("'Lavender' is my favorite color");
@@ -22,6 +25,9 @@ $(document).ready(function() {
 				$("#nein").attr("src", "https://db.tt/BA2vHPxL");
 				$("#nein").attr("width", "299.5");
 				$("#nein").attr("height", "205");
+				$(".linktxt").css("font-family: Monaco, monospace");
+				$(".linktxt:visited").css("font-family: Monaco, monospace");
+				$("#txt").css("font-family: font-family: Monaco, monospace");
 				purple = true;
 			}
 		}
