@@ -19,6 +19,10 @@ body {
 	font-family: Trebuchet MS;
 }
 
+#txt {
+	 font-family: Monaco, monospace;
+}
+
 #header {
     background: linear-gradient(black, dimgray, black);
     border-bottom: 1px dashed white;
