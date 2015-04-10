@@ -4,14 +4,24 @@ $(document).ready(function() {
 	$("#nein").click(function() {
 		function purplize() {
 			if(purple) {
-				location.reload();
+				alert("much colors are very wow");
+				$("#neinbox").css("background", "linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet)");
+				$("#header").css("background", "linear-gradient(red, orange, yellow, green, blue, indigo, violet)");
+				$("#body").css("background", "linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet)");
+				$("#txt").css("background", "linear-gradient(to bottom left, red, orange, yellow, green, blue, indigo, violet");
+				$("#nein").attr("src", "https://db.tt/ma9olSoZ");
+				$("#nein").attr("width", "300");
+				$("#nein").attr("height", "300");
+				purple = false;
 			} else {
 				alert("'Lavender' is my favorite color");
-				$("#neinbox").css("background-color", "#8904B1");
+				$("#neinbox").css("background", "#8904B1");
 				$("#header").css("background", "linear-gradient(purple, violet, purple)");
-				$("#body").css("background-color", "#380B61");
-				$("#txt").css("background-color", "#6A0888");
+				$("#body").css("background", "#380B61");
+				$("#txt").css("background", "#6A0888");
 				$("#nein").attr("src", "https://db.tt/BA2vHPxL");
+				$("#nein").attr("width", "299.5");
+				$("#nein").attr("height", "205");
 				purple = true;
 			}
 		}
