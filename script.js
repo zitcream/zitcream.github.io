@@ -5,10 +5,10 @@ $(document).ready(function() {
 		function purplize() {
 			if(purple) {
 				alert("much colors are very wow");
-				$("#neinbox").css("background", "linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet)");
-				$("#header").css("background", "linear-gradient(red, orange, yellow, green, blue, indigo, violet)");
-				$("#body").css("background", "linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet)");
-				$("#txt").css("background", "linear-gradient(to bottom left, red, orange, yellow, green, blue, indigo, violet");
+				$("#neinbox").css("background", "repeating-linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet)");
+				$("#header").css("background", "repeating-linear-gradient(red, orange, yellow, green, blue, indigo, violet)");
+				$("#body").css("background", "repeating-linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet)");
+				$("#txt").css("background", "repeating-linear-gradient(to bottom left, red, orange, yellow, green, blue, indigo, violet");
 				$("#nein").attr("src", "https://db.tt/ma9olSoZ");
 				$("#nein").attr("width", "300");
 				$("#nein").attr("height", "300");
