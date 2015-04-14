@@ -40,13 +40,23 @@ $(document).ready(function() {
 	$("#ping").click(function() {
 		pong();
 	});
-	//Dropdown Menu Test
-	$("#menutest").slideUp(1);
-	$("#testmenu").mouseenter(function() {
-		$("#menutest").slideDown(1);
-		$("#testmenu").mouseleave(function() {
-			$("#menutest").slideUp(1);
-		});
+	//ILLUMINATI CONFIRMED
+	function illuminate() {
+		alert("Confirmed");
+		$("#nein").attr("src", "https://db.tt/OHGBBA1M");
+		$("#nein").attr("width", "300");
+		$("#nein").attr("height", "300");
+	};
+	//Super Secret Code Entering
+	$("#codez").click(function() {
+		var code = prompt("Enter your super secret code:");
+		switch(code) {
+			case "illuminati":
+				illuminate();
+				break;
+			default:
+				alert("Code invalid.");
+		}
 	});
 });
 
