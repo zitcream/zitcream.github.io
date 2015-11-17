@@ -47,17 +47,6 @@ $(document).ready(function() {
 		$("#nein").attr("width", "300");
 		$("#nein").attr("height", "300");
 	};
-	//Super Secret Code Entering
-	$("#codez").click(function() {
-		var code = prompt("Enter your super secret code:");
-		switch(code) {
-			case "illuminati":
-				illuminate();
-				break;
-			default:
-				alert("Code invalid.");
-		}
-	});
 });
 
 function pong () {
