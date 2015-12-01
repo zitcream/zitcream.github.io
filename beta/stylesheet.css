@@ -12,11 +12,14 @@ nav {
     font-family: Monaco, monospace;
     font-size: 18px;
     text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
-span#youarehere {
-    border-bottom: 2px solid red;
-    border-radius: 5px;
+#youarehere {
+    background: linear-gradient(#666666, #404040);
+    border-bottom: 0px solid red;
 }
 
 body {
@@ -25,6 +28,7 @@ body {
 }
 
 #txtwrap {
+    background: #808080;
     background: rgba(255, 255, 255, 0.5);
     margin:25px;
     padding: 10px;
