@@ -1,74 +1,37 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>The Page of Danny</title>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
-		<link rel="icon" type="image/ico" href="https://db.tt/CTIExJt6"/>
-		<script type="text/javascript" src="jquery.js"></script>
-		<script type="text/javascript" src="script.js"></script>
-		<!-- THIS IS THE MENU BAR AT THE TOP, IN TABLE FORM! -->
-		<div id="header">
-			<table>
-				<tr>
-					<!-- PUT LOGO IN LATER! -->
-					<td>
-						<img src="https://db.tt/mTmhzXYW" width="100px" height="75px" style="padding-right: 5px" id="quacker">
-					</td>
-					<!-- HOME BUTTON! -->
-					<td class="lnkbox"> 
-						<a href="http://zitcream.github.io", class="linktxt">
-							<h2>
-								Home
-							</h2>
-						</a>
-					</td>
-					<td class="lnkbox">
-					    <a href="#desc" class="linktxt">
-					        <h2>
-					            Description
-					        </h2>
-					    </a>
-					</td>
-					<td class="lnkbox">
-					    <a id="aboot" href="#about" class="linktxt">
-					        <h2>
-					            About
-					        </h2>
-					    </a>
-					</td>
-					<td class="lnkbox">
-						<a href="http://zitcream.github.io/projects" class="linktxt">
-							<h2>
-								Projects
-							</h2>
-						</a>
-					</td>
-					<td class="lnkbox">
-						<a href="#" class="linktxt" id="ping">
-							<h2>
-								Ping!
-							</h2>
-						</a>
-					</td>
-				</tr>
-			</table>
-		</div>
-	</head>
-	<body id="body">
-		<!-- THIS IS THE MIDDLE TEXT BOX! -->
-        <div style="background-color: gray; color:whitesmoke; margin: 25px; padding: 25px; border: 2px solid dimgray; border-radius: 25px;" id="txt">
-			<!-- DESCRIPTION! -->
-			<h1 id="desc">DESCRIPTION!</h1>
-			<p>This is a website that will link to all the things that I make in the future. I currently have nothing to show you but...</p>
-			<div style="text-align: center;">
-				<div style="background-color: darkgray; border: 1px solid dimgray; display: inline-block; ; padding: 1em; border-radius: 20px" id="neinbox">
-					<img src="https://db.tt/IWdRIjUT" width="299.5" height="205" id="nein">
-				</div>
-				<br>
-			</div>
-			<!--BETA...?-->
-			<h1>Beta?</h1>
-			<p>You can check out the 'beta' version of this website, where I test stuff out before they go live, <a href="/beta/">here!</a></p>
+    <head>
+        <title>Mediocrity</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" />
+    </head>
+    <body>
+        <nav>
+            |<span id="youarehere" class="navlink">Home</span>
+            |<a href="projects" class="navlink">Projects</a>
+            |<a href="#about" class="navlink" onclick="nothing()">About</a>
+        </nav>
+        <div id="txtwrap">
+            <div id="textbox">
+                <div id="top" class="text">
+                    <h1>HI.</h1>
+                    <p>This is a rathe lacklustre website. Sit down, stay a while.</p>
+                </div>
+                <div id="wat" class="text">
+                    <h1>What happened to my beloved website?</h1>
+                    <p>You may have noticed the complete overhaul of everything on this site; that is completely intentional. I wasn't really happy with the state of the site before, and I have completely rebuilt it from the ground up.</p>
+                    <p>The cat is gone tho</p>
+                </div>
+                <div id="wip" class="text">
+                    <h1>But... there's nothing here!</h1>
+                    <p>Well, not YET. But there will be stuff appearing on this site over time. Still WIP.</p>
+                </div>
+                <div id="legacy" class="text">
+                    <p>If you want to check out the older website, I'll keep it up at <a href="legacy">zitcream.github.io/legacy</a>.</p>
+                </div>
+            </div>
         </div>
-	</body>
+    </body>
 </html>

@@ -1,41 +1,57 @@
-body {
-    background-color: black;
-}
-
-.lnkbox {
-    border-left: 1px dashed white;
-	padding: 5px;
-}
-
-.linktxt {
-	color: #ffffff;
-	text-decoration: none;
-	font-family: Monaco, monospace;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.linktxt:visited {
-	color: #ffffff;
-	text-decoration: none;
-	font-family: Monaco, monospace;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-#txt {
-	font-family: Monaco, monospace;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-#header {
-    background: linear-gradient(black, dimgray, black);
-    border-bottom: 1px dashed white;
+nav {
+    background: linear-gradient(#404040, #666666, #404040);
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
-    padding: 5px 5px 5px 5px;
+    padding: 15px;
 }
 
-a {
-	color: lightblue;
-	text-decoration: underline;
+.navlink {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Monaco, monospace;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#youarehere {
+    background: linear-gradient(#666666, #404040);
+    border-bottom: 0px solid red;
+}
+
+body {
+    background-size: 100%;
+    background-image: url(resource/supernova.jpg);
+}
+
+#txtwrap {
+    background: #808080;
+    background: rgba(255, 255, 255, 0.5);
+    margin:25px;
+    padding: 10px;
+}
+
+#textbox {
+    background: #f2f2f2;
+    color: black;
+    font-family: 'Ubuntu Mono', 'Monaco', monospace;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-top: 30px;
+}
+
+#legacy {
+    border-top: 1px solid black;
 }
