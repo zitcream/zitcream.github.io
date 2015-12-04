@@ -20,6 +20,7 @@ nav {
 #youarehere {
     background: linear-gradient(#666666, #404040);
     border-bottom: 0px solid red;
+    cursor: default;
 }
 
 .navlink:hover {
