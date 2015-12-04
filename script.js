@@ -1,3 +1,3 @@
 function nothing () {
-    alert("This buttone still doesn't do much.");
+    alert("This button still doesn't do much.");
 }
