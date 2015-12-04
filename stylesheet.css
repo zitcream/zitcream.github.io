@@ -17,18 +17,17 @@ nav {
     border: 1px solid black;
 }
 
-#youarehere {
-    background: linear-gradient(#666666, #404040);
-    border-bottom: 0px solid red;
-    cursor: default;
-}
-
 .navlink:hover {
     border-bottom: 1px solid red;
 }
 
+#youarehere {
+    background: linear-gradient(#666666, #404040);
+    border-bottom: 1px solid yellow;
+    cursor: default;
+
 body {
-    background-size: 99%;
+    background-size: 100%;
     background-image: url(resource/supernova.jpg);
 }
 
