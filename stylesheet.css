@@ -17,6 +17,10 @@ nav {
     border: 1px solid black;
 }
 
+.navlink:hover {
+    border-bottom: 1px solid red;
+}
+
 #youarehere {
     background: linear-gradient(#666666, #404040);
     border-bottom: 0px solid red;
