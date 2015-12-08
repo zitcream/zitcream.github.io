@@ -25,6 +25,7 @@ nav {
     background: linear-gradient(#666666, #404040);
     border-bottom: 1px solid yellow;
     cursor: default;
+}
 
 body {
     background-size: 100%;
