@@ -29,7 +29,7 @@ nav {
 
 body {
     background-size: 100%;
-    background-image: url(resource/supernova.jpg);
+    background-image: url(http://zitcream.github.io/resource/supernova.jpg);
 }
 
 .txtwrap {
@@ -60,4 +60,9 @@ h1 {
 
 #legacy {
     border-top: 1px solid black;
+}
+
+#ping:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
